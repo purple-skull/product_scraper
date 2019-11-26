@@ -1,6 +1,6 @@
 {
-  "name": "product_scraper",
-  "version": "1.0.4",
+  "name": "@rajathans/productscraper",
+  "version": "1.0.0",
   "description": "Get product details as a json reponse including feedbacks, variants, description, images, etc.,",
   "main": "index.js",
   "scripts": {
