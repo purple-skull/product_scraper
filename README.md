@@ -9,11 +9,11 @@ Scrapes product information and returns the response in json format including:
 # How to use?
 
 ```
-npm i product_scraper
+npm i @rajathans/productscraper
 ```
 
 ```
-const scrape = require('product_scraper');
+const scrape = require('@rajathans/productscraper');
 const product = scrape('32958933105');
 
 product.then(res => {
