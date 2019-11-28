@@ -1,8 +1,6 @@
-# Aliexpress Product Scraper
+# Product Scraper
 
-[![Build Status](https://api.travis-ci.org/sudheer-ranga/aliexpress-product-scraper.svg?branch=master)](https://travis-ci.org/sudheer-ranga/aliexpress-product-scraper)
-
-Aliexpress Product Scraper scrapes product information and returns the response in json format including:
+Scrapes product information and returns the response in json format including:
 
 - Description
 - Feedback
@@ -11,11 +9,11 @@ Aliexpress Product Scraper scrapes product information and returns the response 
 # How to use?
 
 ```
-npm i aliexpress-product-scraper
+npm i product_scraper
 ```
 
 ```
-const scrape = require('aliexpress-product-scraper');
+const scrape = require('product_scraper');
 const product = scrape('32958933105');
 
 product.then(res => {

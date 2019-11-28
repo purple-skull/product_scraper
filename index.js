@@ -1,2 +1,2 @@
-const aliexpressProductScraper = require('./src/aliexpressProductScraper');
+const productScraper = require('./src/aliexpressProductScraper');
 module.exports = aliexpressProductScraper;
