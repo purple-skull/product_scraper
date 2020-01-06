@@ -78,8 +78,8 @@ async function AliexpressProductScraper(productId, feedbackLimit) {
       max: data.priceModule.maxAmount.value
     },
     salePrice: {
-      min: data.priceModule.minActivityAmount.value,
-      max: data.priceModule.maxActivityAmount.value
+      min: data.priceModule.minActivityAmount == undefined ? data.priceModule.minAmount.value : data.priceModule.minActivityAmount.value,
+      max: data.priceModule.maxActivityAmount == undefined ? data.priceModule.maxAmount.value : data.priceModule.maxActivityAmount.value
     }
   };
 

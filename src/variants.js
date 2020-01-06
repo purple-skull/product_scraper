@@ -24,7 +24,7 @@ module.exports = {
         optionValueIds: list.skuPropIds,
         availableQuantity: list.skuVal.availQuantity,
         originalPrice: list.skuVal.skuAmount.value,
-        salePrice: list.skuVal.skuActivityAmount.value
+        salePrice: list.skuVal.skuActivityAmount == undefined ? '' : list.skuVal.skuActivityAmount.value
       };
     });
 
